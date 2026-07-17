@@ -1,0 +1,24 @@
+# 1. Credenciais e Configurações Sensíveis
+config.py
+credentials.json
+
+# 2. Sessões e Dados do WhatsApp (MUITO IMPORTANTE)
+PyWhatKit_DB.txt
+
+# 3. Ambiente Virtual e Cache do Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# 4. Logs e Arquivos Gerados de Execução
+mercado_tracker.log
+failed_urls.txt
+ignored_urls.txt
+
+# 5. Backups e Dados Locais
+bkps/
+MercadoTracker.ini
+MercadoTracker - Categorias.csv
+*.csv
