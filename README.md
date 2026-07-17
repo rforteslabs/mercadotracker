@@ -61,7 +61,7 @@ pip install -r requirements.txt
 Adicione suas credenciais do Google Cloud na raiz do projeto:
 
 3. Adicione suas credenciais do Google Cloud na raiz do projeto:
-# Certifique-se de que o arquivo credentials.json esteja na pasta raiz.
+Certifique-se de que o arquivo credentials.json esteja na pasta raiz.
 
 4. Execute o script de coleta:
 ```bash
