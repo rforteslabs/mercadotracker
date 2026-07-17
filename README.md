@@ -10,7 +10,7 @@
 ## 📌 Sobre o Projeto
 O **Mercado Tracker** é uma solução automatizada de engenharia de dados e web scraping desenvolvida para monitorar, comparar e analisar preços de produtos em diferentes supermercados. 
 
-O objetivo do projeto é economizar no mercado e facilitar a tomada de decisão no momento das compras, garantindo acesso rápido às informações de variação de preços diretamente pelo celular através de um dashboard interativo, alimentado por dados coletados diariamente.
+O objetivo do projeto é economizar no mercado, além de facilitar a tomada de decisão no momento das compras, garantindo acesso rápido às informações de variação de preços diretamente pelo celular através de um dashboard interativo, alimentado por dados coletados diariamente.
 
 Este projeto foi desenvolvido utilizando a metodologia de *AI-Assisted Development* (Vibe Coding), focando em entrega rápida de valor e arquitetura funcional.
 
@@ -32,7 +32,7 @@ O sistema opera em um pipeline de 4 etapas contínuas:
 
 ## 📊 Dashboard Interativo
 *Print do dashboard no Looker Studio - dashboard_mercadotracker.png*
-> `![Dashboard Looker Studio](https://github.com/rforteslabs/mercadotracker/blob/main/dashboard_mercadotracker.png)`
+> `[Dashboard Looker Studio](https://github.com/rforteslabs/mercadotracker/blob/main/dashboard_mercadotracker.png)`
 
 O painel permite visualizar:
 - Produtos com Menor Preço Histórico já registrado
@@ -43,7 +43,7 @@ O painel permite visualizar:
 
 ### Pré-requisitos
 * Python 3.8+ instalado.
-* Credenciais da API do Google Cloud (Arquivo `credentials.json`).
+* Credenciais da API do Google Cloud (Arquivo exemplo `credentials_example.json`).
 
 ### Instalação
 
@@ -51,3 +51,24 @@ O painel permite visualizar:
 ```bash
 git clone https://github.com/rforteslabs/mercadotracker.git
 cd mercado-tracker
+
+2. Crie um ambiente virtual e instale as dependências:
+python -m venv venv
+source venv/bin/activate  # No Windows use: venv\Scripts\activate
+pip install -r requirements.txt
+
+Adicione suas credenciais do Google Cloud na raiz do projeto:
+
+3. Adicione suas credenciais do Google Cloud na raiz do projeto:
+# Certifique-se de que o arquivo credentials.json esteja na pasta raiz.
+
+4. Execute o script de coleta:
+python main.py
+
+⏱️  Automação (Job Scheduling)
+5. Para garantir que os dados estejam sempre atualizados sem intervenção manual, o script deve ser configurado para rodar através de uma tarefa CRON no sistema operacional.
+0 6 * * * /caminho/absoluto/para/o/venv/bin/python /caminho/absoluto/para/o/projeto/main.py
+
+👨‍💻 Autor
+Rodrigo Fortes dos Santos
+Profissional de Tecnologia em transição para Engenharia de Software / Desenvolvimento.
