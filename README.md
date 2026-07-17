@@ -51,19 +51,22 @@ O painel permite visualizar:
 ```bash
 git clone https://github.com/rforteslabs/mercadotracker.git
 cd mercado-tracker
-
+```
 2. Crie um ambiente virtual e instale as dependências:
+```bash
 python -m venv venv
 source venv/bin/activate  # No Windows use: venv\Scripts\activate
 pip install -r requirements.txt
-
+```
 Adicione suas credenciais do Google Cloud na raiz do projeto:
 
 3. Adicione suas credenciais do Google Cloud na raiz do projeto:
 # Certifique-se de que o arquivo credentials.json esteja na pasta raiz.
 
 4. Execute o script de coleta:
+```bash
 python main.py
+```
 
 ⏱️  Automação (Job Scheduling)
 5. Para garantir que os dados estejam sempre atualizados sem intervenção manual, o script deve ser configurado para rodar através de uma tarefa CRON no sistema operacional.
