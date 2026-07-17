@@ -74,5 +74,7 @@ Para garantir que os dados estejam sempre atualizados sem intervenção manual, 
 0 6 * * * /caminho/absoluto/para/o/venv/bin/python /caminho/absoluto/para/o/projeto/main.py
 
 👨‍💻 Autor
+
 Rodrigo Fortes dos Santos
+
 Profissional de Tecnologia em transição para Engenharia de Software / Desenvolvimento.
