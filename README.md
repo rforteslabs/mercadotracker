@@ -73,8 +73,6 @@ python main.py
 Para garantir que os dados estejam sempre atualizados sem intervenção manual, o script deve ser configurado para rodar através de uma tarefa CRON no sistema operacional.
 0 6 * * * /caminho/absoluto/para/o/venv/bin/python /caminho/absoluto/para/o/projeto/main.py
 
-#👨‍💻 Autor
-
+👨‍💻 Autor
 Rodrigo Fortes dos Santos
-
 Profissional de Tecnologia em transição para Engenharia de Software / Desenvolvimento.
